@@ -1,8 +1,10 @@
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-// Register the ScrollTrigger plugin
-gsap.registerPlugin(ScrollTrigger)
+import { MorphSVGPlugin } from '../gsap-bonus/MorphSVGPlugin.min' // Adjust the path if necessary
+
+// Register the ScrollTrigger and MorphSVGPlugin with GSAP
+gsap.registerPlugin(ScrollTrigger, MorphSVGPlugin)
 
 // Function to handle animation for desktop
 function handleAnimation() {
