@@ -1,7 +1,7 @@
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-import { MorphSVGPlugin } from '../gsap-bonus/MorphSVGPlugin.min' // Adjust the path if necessary
+import { MorphSVGPlugin } from '../gsap-bonus/MorphSVGPlugin.min.js' // Adjust the path if necessary
 
 // Register the ScrollTrigger and MorphSVGPlugin with GSAP
 gsap.registerPlugin(ScrollTrigger, MorphSVGPlugin)
